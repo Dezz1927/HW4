@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>homework4</title>
+</head>
+<style>
+
+
+	.tabs {
+		width: 100%
+		margin: 0;
+		padding: 0;
+	}
+	input {
+		display: none;
+	
+	}
+
+	label {
+		display: inline-block;
+		border: 1px solid black;
+		text-align: center;
+		padding: 10px;
+		margin: 0;
+		color: black;
+		box-shadow: inset 0px 0px 2px 5px black;
+		cursor: pointer;
+		width: 100px;
+		background-color: #AFEEEE;
+		
+
+	}
+	#text__1 {
+		display: inline-block;
+		border: 1px solid black;
+		text-align: center;
+		display: none;
+		padding: 10px;
+		color: black;	
+		box-shadow: 0 0 18px 6px black;
+		width: 352px;
+		background-color: #AFEEEE;
+
+
+
+	}
+	#text__2 {
+		display: inline-block;
+		border: 1px solid black;
+		text-align: center;
+		display: none;
+		padding: 10px;
+		color: black;
+		box-shadow: 0 0 18px 6px black;
+		width: 352px;
+		background-color: #AFEEEE;
+
+	}
+	#text__3 {
+		display: inline-block;
+		border: 1px solid black;
+		text-align: center;
+		display: none;
+		padding: 10px;
+		color: black;
+		box-shadow: 0 0 18px 6px black;
+		width: 352px;
+		background-color: #AFEEEE;
+
+	}
+	#tab__1:checked ~ #text__1  { 
+	display: block;
+	}
+	#tab__2:checked ~ #text__2 {
+		display: block;
+	}
+	#tab__3:checked ~ #text__3 {
+	 	display: block;
+	 }
+	 p {
+	 	background-color: #AFEEEE;
+	 }
+
+</style>
+<body>
+	<div class="tabs">
+		<input type="radio" name="text" id="tab__1" checked>
+		<label for="tab__1">Tab1</label>
+		<input type="radio" name="text" id="tab__2">
+		<label for="tab__2">Tab2</label>
+		<input type="radio" name="text" id="tab__3">
+		<label for="tab__3">Tab3</label>
+	<div id="text__1">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, fugit?
+		</p>
+	</div>
+	<div id="text__2">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates totam magni eveniet temporibus beatae, deserunt quae in fugit unde, minus!
+		</p>
+	</div>
+	<div id="text__3">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem labore qui obcaecati molestias a necessitatibus velit illo! Officia optio, eligendi fugit dignissimos alias! Sunt dignissimos doloribus, officiis repudiandae sed nisi.
+		</p>
+	</div>
+
+		
+	</div>
+</body>
+</html>
